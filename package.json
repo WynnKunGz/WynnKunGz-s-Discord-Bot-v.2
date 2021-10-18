@@ -1,0 +1,17 @@
+{
+  "name": "wynnkungzs-discord-bot",
+  "version": "2.0.1",
+  "description": "WynnKunGz's Discord Bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo Build Successful!"
+  },
+  "author": "WynnKunGz",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0"
+  }
+}
