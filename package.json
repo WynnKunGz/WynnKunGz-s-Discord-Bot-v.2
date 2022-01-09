@@ -4,7 +4,8 @@
   "description": "WynnKunGz's Discord Bot",
   "main": "main.js",
   "scripts": {
-    "test": "echo Build Successful!"
+    "test": "echo Build Successful!",
+    "start": "node main.js"
   },
   "author": "WynnKunGz",
   "license": "MIT",
