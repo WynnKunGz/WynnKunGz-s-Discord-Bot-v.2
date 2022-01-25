@@ -20,7 +20,9 @@ module.exports = {
             { name : '6. isst', value : 'Sends a link to the WKOM\'s Issue Tracker.'},
             { name : '7. serverinfo', value : 'Sends the Server\'s Information.'},
             { name : '8. isonline', value : 'Checks if the bot is online.'},
-            { name : '9. ping', value : 'Sends the bot\'s ping.'}
+            { name : '9. ping', value : 'Sends the bot\'s ping.'},
+            { name : '10. javalearning', value : 'Sends information and links to Java learning sources'},
+            { name : '11. javasyntax', value : 'Sends information about Java Syntax/Java Naming Conventions'}
         )
         .setTimestamp()
         .setFooter(`WynnKunGz\'s Discord Bot | Version ${version} | By WynnKunGz`);
