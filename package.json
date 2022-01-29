@@ -1,6 +1,6 @@
 {
   "name": "wynnkungzs-discord-bot",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "WynnKunGz's Discord Bot",
   "main": "main.js",
   "scripts": {
