@@ -9,7 +9,7 @@ module.exports = {
         const wiki = new Discord.MessageEmbed()
         .setColor('#ffbf00')
         .setTitle('Wiki!')
-        .setURL('https://wynnkungzs-ores-mod.fandom.com/wiki/WynnKunGz%27s_Ores_Mod_Wiki')
+        .setURL('https://wkom.fandom.com/wiki/WynnKunGz%27s_Ores_Mod_Wiki')
         .setAuthor('WynnKunGz')
         .setDescription('WynnKunGz\'s Ores Mod\'s Official Wiki!')
         .setTimestamp()
