@@ -22,7 +22,8 @@ module.exports = {
             { name : '8. isonline', value : 'Checks if the bot is online.'},
             { name : '9. ping', value : 'Sends the bot\'s ping.'},
             { name : '10. javalearning', value : 'Sends information and links to Java learning sources'},
-            { name : '11. javasyntax', value : 'Sends information about Java Syntax/Java Naming Conventions'}
+            { name : '11. javasyntax', value : 'Sends information about Java Syntax/Java Naming Conventions'},
+            { name : '12. java', value : 'Shows Information about Java Versions'}
         )
         .setTimestamp()
         .setFooter(`WynnKunGz\'s Discord Bot | Version ${version} | By WynnKunGz`);
