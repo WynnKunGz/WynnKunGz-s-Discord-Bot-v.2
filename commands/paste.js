@@ -7,7 +7,7 @@ module.exports = {
 
     async run (client, message, args) {
         const paste = new Discord.MessageEmbed()
-        .setColor('#ffbf00')
+        .setColor('#fba800')
         .setTitle('Don\'t Paste Here! Use Hastebin!')
         .setURL('https://hastebin.com/')
         .setAuthor('WynnKunGz')

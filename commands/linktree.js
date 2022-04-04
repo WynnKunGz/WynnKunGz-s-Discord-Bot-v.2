@@ -7,7 +7,7 @@ module.exports = {
 
     async run (client, message, args) {
         const linktree = new Discord.MessageEmbed()
-        .setColor('#ffbf00')
+        .setColor('#fba800')
         .setTitle('WynnKunGz\'s Linktree')
         .setURL('https://linktr.ee/WynnKunGz')
         .setAuthor('WynnKunGz')

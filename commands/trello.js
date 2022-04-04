@@ -7,7 +7,7 @@ module.exports = {
 
     async run (client, message, args) {
         const trello = new Discord.MessageEmbed()
-        .setColor('#ffbf00')
+        .setColor('#fba800')
         .setTitle('Idea Suggestions!')
         .setAuthor('WynnKunGz')
         .setDescription('Before you submit a suggestion, check if it\'s already planned!\nYou can see the list of things that are planned and added here.')

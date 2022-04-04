@@ -7,7 +7,7 @@ module.exports = {
 
     async run (client, message, args) {
         const ccr = new Discord.MessageEmbed()
-        .setColor('#ffbf00')
+        .setColor('#fba800')
         .setTitle('Custom Crafting Recipes Datapack!')
         .setURL('https://www.curseforge.com/minecraft/customization/custom-crafting-recipes-ccr')
         .setAuthor('WynnKunGz')

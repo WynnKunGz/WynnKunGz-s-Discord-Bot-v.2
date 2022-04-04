@@ -7,7 +7,7 @@ module.exports = {
 
     async run (client, message, args) {
         const github = new Discord.MessageEmbed()
-        .setColor('#ffbf00')
+        .setColor('#fba800')
         .setTitle('GitHub Links')
         .setAuthor('WynnKunGz')
         .setDescription('Useful GitHub Links')

@@ -7,16 +7,16 @@ module.exports = {
 
     async run (client, message, args) {
         const build = new Discord.MessageEmbed()
-        .setColor('#ffbf00')
+        .setColor('#fba800')
         .setTitle('Build!')
         .setAuthor('WynnKunGz')
-        .setDescription('Is  the latest build successfully built?')
+        .setDescription('Is the latest build successfully built?')
         .addFields(
             { name : '???', value : `Version ${version} is successfully built.`},
         )
         .setTimestamp()
         .setFooter(`WynnKunGz\'s Discord Bot | Version ${version} | By WynnKunGz`);
-       
+        
         message.channel.send(build);
     }
 }

@@ -7,7 +7,7 @@ module.exports = {
 
     async run (client, message, args) {
         const isst = new Discord.MessageEmbed()
-        .setColor('#ffbf00')
+        .setColor('#fba800')
         .setTitle('Issue Tracker for WynnKunGz\'s Ores Mod')
         .setURL('https://wynnkungzoresmod.atlassian.net/')
         .setAuthor('WynnKunGz')

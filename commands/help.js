@@ -7,23 +7,23 @@ module.exports = {
 
     async run (client, message, args) {
         const help = new Discord.MessageEmbed()
-        .setColor('#1b842c')
+        .setColor('#00a800')
         .setTitle('Help!')
         .setAuthor('WynnKunGz')
         .setDescription('WynnKunGz\'s Discord Bot Custom Commands List')
         .addFields(
-            { name : '1. trello', value : 'Sends a link to the trello boards.'},
-            { name : '2. wiki', value : 'Sends a link to WynnKunGz\'s Ores Mod Wiki.'},
-            { name : '3. ccr', value : 'Sends a Curseforge link to the CCR Datapack.'},
-            { name : '4. wkom', value : 'Sends a Curseforge link to the WynnKunGz\'s Ores Mod.'},
-            { name : '5. paste', value : 'Sends a link to Hastebin.'},
-            { name : '6. isst', value : 'Sends a link to the WKOM\'s Issue Tracker.'},
-            { name : '7. serverinfo', value : 'Sends the Server\'s Information.'},
-            { name : '8. isonline', value : 'Checks if the bot is online.'},
-            { name : '9. ping', value : 'Sends the bot\'s ping.'},
-            { name : '10. javalearning', value : 'Sends information and links to Java learning sources'},
-            { name : '11. javasyntax', value : 'Sends information about Java Syntax/Java Naming Conventions'},
-            { name : '12. java', value : 'Shows Information about Java Versions'}
+            { name : '1. trello', value : 'Sends a link to the trello boards.', inline: true},
+            { name : '2. wiki', value : 'Sends a link to WynnKunGz\'s Ores Mod Wiki.', inline : true},
+            { name : '3. ccr', value : 'Sends a Curseforge link to the CCR Datapack.', inline : true},
+            { name : '4. wkom', value : 'Sends a Curseforge link to the WynnKunGz\'s Ores Mod.', inline : true},
+            { name : '5. paste', value : 'Sends a link to Hastebin.', inline : true},
+            { name : '6. isst', value : 'Sends a link to the WKOM\'s Issue Tracker.', inline : true},
+            { name : '7. serverinfo', value : 'Sends the Server\'s Information.', inline : true},
+            { name : '8. isonline', value : 'Checks if the bot is online.', inline : true},
+            { name : '9. ping', value : 'Sends the bot\'s ping.', inline : true},
+            { name : '10. javalearning', value : 'Sends information and links to Java learning sources', inline : true},
+            { name : '11. javasyntax', value : 'Sends information about Java Syntax/Java Naming Conventions', inline : true},
+            { name : '12. java', value : 'Shows Information about Java Versions', inline : true}
         )
         .setTimestamp()
         .setFooter(`WynnKunGz\'s Discord Bot | Version ${version} | By WynnKunGz`);

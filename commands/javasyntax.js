@@ -7,7 +7,7 @@ module.exports = {
 
     async run (client, message, args) {
         const javasyntax = new Discord.MessageEmbed()
-        .setColor('#ffbf00')
+        .setColor('#fba800')
         .setTitle('Java Naming Conventions')
         .setURL('https://www.javatpoint.com/java-naming-conventions#:~:text=CamelCase%20in%20Java%20naming%20conventions%20Java%20follows%20camel-case,etc.%20Next%20Topic%20Objects%20and%20Classes%20in%20Java')
         .setAuthor('WynnKunGz')

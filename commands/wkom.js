@@ -7,7 +7,7 @@ module.exports = {
 
     async run (client, message, args) {
         const wkom = new Discord.MessageEmbed()
-        .setColor('#ffbf00')
+        .setColor('#fba800')
         .setTitle('WynnKunGz\'s Ores Mod!')
         .setURL('https://www.curseforge.com/minecraft/mc-mods/wynnkungzoresmod')
         .setAuthor('WynnKunGz')

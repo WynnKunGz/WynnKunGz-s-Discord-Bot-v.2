@@ -7,7 +7,7 @@ module.exports = {
 
     async run (client, message, args) {
         const serverinfo = new Discord.MessageEmbed()
-        .setColor('#ffbf00')
+        .setColor('#54fbfb')
         .setTitle('Server Information')
         .setAuthor('WynnKunGz')
         .setDescription('WK\'s Server Information')

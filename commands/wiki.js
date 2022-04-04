@@ -7,7 +7,7 @@ module.exports = {
 
     async run (client, message, args) {
         const wiki = new Discord.MessageEmbed()
-        .setColor('#ffbf00')
+        .setColor('#fba800')
         .setTitle('Wiki!')
         .setURL('https://wkom.fandom.com/wiki/WynnKunGz%27s_Ores_Mod_Wiki')
         .setAuthor('WynnKunGz')

@@ -7,7 +7,7 @@ module.exports = {
 
       async run (client, message, args) {
             const java = new Discord.MessageEmbed()
-            .setColor('#ffbf00')
+            .setColor('#fba800')
             .setTitle('Java Version Information')
             .setAuthor('WynnKunGz')
             .setDescription('Shows Information about Java Versions')

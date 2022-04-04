@@ -7,7 +7,7 @@ module.exports = {
 
     async run (client, message, args) {
         const javalearning = new Discord.MessageEmbed()
-        .setColor('#ffbf00')
+        .setColor('#fba800')
         .setTitle('Before Modding You Should Learn Java')
         .setAuthor('WynnKunGz')
         .setDescription(`To start modding minecraft, it is highly recommended to 
