@@ -23,7 +23,9 @@ module.exports = {
             { name : '9. ping', value : 'Sends the bot\'s ping.', inline : true},
             { name : '10. javalearning', value : 'Sends information and links to Java learning sources', inline : true},
             { name : '11. javasyntax', value : 'Sends information about Java Syntax/Java Naming Conventions', inline : true},
-            { name : '12. java', value : 'Shows Information about Java Versions', inline : true}
+            { name : '12. java', value : 'Shows Information about Java Versions', inline : true},
+            { name : '13. forge', value : 'Shows Information about Forge Versions', inline : true},
+            { name : '14. forge2', value : 'Shows Information about Forge Versions', inline : true}
         )
         .setTimestamp()
         .setFooter(`WynnKunGz\'s Discord Bot | Version ${version} | By WynnKunGz`);

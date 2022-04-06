@@ -3,14 +3,14 @@ const { version } = require('../package.json');
 
 module.exports = {
       name: 'java',
-      description: 'Shows Information about Major Version for Java Versions',
+      description: 'Sends An Embed Showing Information about Major Version for Java Versions',
 
       async run (client, message, args) {
             const java = new Discord.MessageEmbed()
             .setColor('#fba800')
             .setTitle('Java Version Information')
             .setAuthor('WynnKunGz')
-            .setDescription('Shows Information about Java Versions')
+            .setDescription('Information about Java Versions')
             .addFields(
                   { name : '1. Java 1.0', value : 'Major Version 45', inline : true },
                   { name : '2. Java 1.1', value : 'Major Version 45.3', inline : true },
