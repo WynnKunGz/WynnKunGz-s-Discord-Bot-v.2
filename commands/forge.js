@@ -21,7 +21,7 @@ module.exports = {
          { name : '7. Forge 1.5, 1.5.1 and 1.5.2', value : 'Loader Version 7', inline : true},
          { name : '8. Forge 1.6.1', value : 'Loader Version 8', inline : true},
          { name : '9. Forge 1.6.2, 1.6.3 and 1.6.4', value : 'Loader Version 9', inline : true},
-         { name : '10. Forge 1.7.2 and 1.7.10', value : 'Loader Version 10', inline : true},
+         { name : '10. Forge 1.7.2, 1.7.10-pre4 and 1.7.10', value : 'Loader Version 10', inline : true},
          { name : '11. Forge 1.8, 1.8.8 and 1.8.9', value : 'Loader Version 11', inline : true},
          { name : '12. Forge 1.9, 1.9.4, 1.10 and 1.10.2', value : 'Loader Version 12', inline : true},
          { name : '13. Forge 1.11 and 1.11.2', value : 'Loader Version 13', inline : true},

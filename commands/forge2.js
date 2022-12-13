@@ -8,7 +8,7 @@ module.exports = {
    async run (client, message, args) {
       const forge2 = new Discord.MessageEmbed()
       .setColor('#fba800')
-      .setTitle('Forge Version Information')
+      .setTitle('Forge Version Information Part 2')
       .setAuthor('WynnKunGz')
       .setDescription('Information about Forge Versions')
       .addFields(
@@ -16,7 +16,11 @@ module.exports = {
          { name : '27. Forge 1.17.1', value : 'Loader Version 37', inline : true},
          { name : '28. Forge 1.18', value : 'Loader Version 38', inline : true},
          { name : '29. Forge 1.18.1', value : 'Loader Version 39', inline : true},
-         { name : '30. Forge 1.18.2', value : 'Loader Version 40', inline : true}
+         { name : '30. Forge 1.18.2', value : 'Loader Version 40', inline : true},
+         { name : '31. Forge 1.19', value : 'Loader Version 41', inline : true},
+         { name : '32. Forge 1.19.1', value : 'Loader Version 42', inline : true},
+         { name : '33. Forge 1.19.2', value : 'Loader Version 43', inline : true},
+         { name : '34. Forge 1.19.3', value : 'Loader Version 44', inline : true}
       )
       .setTimestamp()
       .setFooter(`WynnKunGz\'s Discord Bot | Version ${version} | By WynnKunGz`);

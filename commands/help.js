@@ -10,7 +10,7 @@ module.exports = {
         .setColor('#00a800')
         .setTitle('Help!')
         .setAuthor('WynnKunGz')
-        .setDescription('WynnKunGz\'s Discord Bot Custom Commands List')
+        .setDescription('Commands List')
         .addFields(
             { name : '1. trello', value : 'Sends a link to the trello boards.', inline: true},
             { name : '2. wiki', value : 'Sends a link to WynnKunGz\'s Ores Mod Wiki.', inline : true},
@@ -25,7 +25,9 @@ module.exports = {
             { name : '11. javasyntax', value : 'Sends information about Java Syntax/Java Naming Conventions', inline : true},
             { name : '12. java', value : 'Shows Information about Java Versions', inline : true},
             { name : '13. forge', value : 'Shows Information about Forge Versions', inline : true},
-            { name : '14. forge2', value : 'Shows Information about Forge Versions', inline : true}
+            { name : '14. forge2', value : 'Shows Information about Forge Versions', inline : true},
+            { name : '15. fgv', value : 'Shows Information about Forge Versions', inline : true},
+            { name : '16. fgv2', value : 'Shows Information about Forge Versions', inline : true}
         )
         .setTimestamp()
         .setFooter(`WynnKunGz\'s Discord Bot | Version ${version} | By WynnKunGz`);
